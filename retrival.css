@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 0;
+    padding: 0;
+}
+
+.tbl-main-headrs{
+    border: solid;
+}
+.mTHeadr{
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+
+
+.new-review th{
+    vertical-align: middle;
+    text-align: center;
+}
+.new-review td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.review-col{
+    font-size: 2vw;
+    text-align: center;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+}
+.date-col-cel{
+    background-color: lightgray;
+}
+
+.rate-col-cel{
+    background-color: lightsalmon;
+}
+.rev-col-cel{
+    background-color: lightpink;
+}
+
+.name-col-cel{
+    background-color: darkcyan;
+}
+
+
+
+
+
+
+
+

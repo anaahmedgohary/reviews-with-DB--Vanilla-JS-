@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>add review page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style/addreview.css" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <div id="mainTitle">
+                <h1>
+                    Zag Reviews
+                </h1>
+                <div>
+                    <h4>
+                        local reviews for local bussiness
+                    </h4>
+                </div>
+            </div>
+            
+            <div>
+                <nav class="main-nav">
+                    <p><a href="./addreview.html">Home</a></p>                   
+                    <a href="./retrievalDisplay.php"><p>New Reviews</p></a>
+                    <p>Contact</p>
+                </nav>
+            </div>
+        </header>
+        <!-- <div id="selectionNav">
+            <div class="selection-banel">
+                <label for="files">business to review:</label>
+                <select id="selectLocal" name="files" id="files">
+                    <optgroup id="resurants14" label="Resturans">
+                        <option id="1resturnat" value="">Select Here</option>
+                        
+                    </optgroup>
+                    <optgroup label="Cafes">
+                        <option value="somefile">baleno</option>
+                        <option value="someotherfile">Rio</option>
+                    </optgroup>
+                </select>
+            <script>
+                $( "#files" ).selectmenu();
+            </script>
+            </div>
+        </div>
+        <div id="selectionInfo">
+            <div>
+                <img id="selectImage" src="images/blackboard3.jpg" alt="selname">
+                
+            </div>
+            <div class="flex info-row">
+                <label for="selectionname">name:</label>
+                <p id="selectName">foodies</p>
+            </div>
+            <div class="flex info-row">
+                <label for="location">location:</label>
+                <p id="selectLocation">5 sdd, next to mansfr</p>
+            </div>
+            <div class="flex info-row">
+            <label for="phone number">phone number:</label>
+                <p id="selectPhone">055455433</p>
+            </div>
+            <div class="flex info-row">
+                <label for="services">services:</label>
+                <p id="selectSeervice">food</p>
+            </div>
+            <div class="flex info-row">
+                <label for="rating">Rating out of 5:</label>
+                <p id="selectRating">4.5</p>
+            </div>
+            <div class="flex info-row">
+                <label id="selectPeopleRated">number of ratings:</label>
+                <p id="rateCounter"></p>
+            </div>
+        </div> -->
+        <div id="reviewTitle">
+            👇 Share your Review here 👇
+        </div>
+        <div id="ratingBox">
+            <form id="formStyle" action="postzreveiw.php" method="post">
+
+                <div id="underRevDiv" class="form-row">
+                    <label for="underRev">* Business name:
+                        <input type="text" 
+                            name="underRev" 
+                            id="underRev" 
+                            maxlength="30" 
+                            required />
+                    </label>
+                </div>
+
+                <div id="" class="form-row">
+                    <label id="rateinput" for="ratingNum">* Rating:
+                        <input name="ratingNum" 
+                            id="ratingNum"
+                            class="rating"
+                            max="5"
+                            min="0"
+                            maxLength="3"
+                            step="0.1"
+                            type="number"
+                            value=""
+                            style="text-align: center;"
+                            required />
+                    </label>
+                </div>
+                <div id="reviewParagraph" class="form-row">
+                    <label for="reviewP"> write a Review!
+                        <input type="text" name="reviewP" id="reviewP" maxlength="300" placeholder="Optional" />
+                    </label>
+                    
+                </div>
+                <div id="raterNameB" class="form-row">
+                    <label for="raterName">* Enter your Name:
+                        <input type="text" name="raterName" id="raterName" maxlength="30" required />
+                    </label>
+                </div>
+                <div id="raterEmailB" class="form-row">
+                    <label for="email">* Enter your Email:
+                        <input type="email" name="raterEmail" id="raterEmail" required />
+                    </label>
+
+                </div>
+
+                <div id="formusbcon">
+                    <input type="submit" id="reviewSubmission" value="submit" />
+                </div>
+            </form>
+
+        </div>
+
+        <footer class="FOOTER">
+            <div class="footer-title">
+                Zag Reviews
+            </div>
+            <div class="above-icon">Reach us on socials</div>
+            <div class="fotr-icon-div">
+                <!-- <a href="https://wa.me/201000267277" target="_blank">
+                    <img class="footer-icon" src="images/whatsapp-logo.png" title="whatsapp"></a> -->
+                <a href="http://www.facebook.com" target="_blank">
+                    <img class="footer-icon" src="images/facebook-logo.png" title="facebook"></a>
+                <a href="http://www.instagram.com" target="_blank">
+                    <img class="footer-icon" src="images/instagram-logo.png" title="instagram"></a>
+                <a href="http://www.tiktok.com" target="_blank">
+                    <img class="footer-icon" src="images/tiktok-logo.png" title="tiktok"></a>
+                <a href="http://www.youtube.com" target="_blank">
+                    <img class="footer-icon" src="images/youtube-logo.png" title="youtube"></a>
+                <a href="mailto:mrzagreviews@gmail.com" target="_blank">
+                    <img class="footer-icon" src="images/email-icon.png" title="email"></a>
+                <!-- <a href="" target="_blank"><img class="footer-icon" src="" alt=""></a> -->
+            </div>
+        </footer>
+
+        
+        <script src="addreview.js" defer></script>
+        <script>
+            $(document).ready(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "personReview.php",
+                    dataType: "html",
+                    success: function (data) {
+                        $("#rateCounter").html(data);
+                    }
+                });
+
+                $.ajax({
+                    type: "GET",
+                    url: "average.php",
+                    dataType: "html",
+                    success: function(data){
+                        $("#selectRating").html(data);
+                    }
+                });        
+
+            });
+        </script>
+        <!-- <script>
+            $(document).ready(function () {
+                $.ajax({
+                type: "GET",
+                url: "average.php",
+                dataType: "html",
+                success: function(data){
+                    $("#selectRating").html(data);
+                }
+            }); 
+
+            });
+              
+        </script> -->
+        <script src="handleforms.js"></script>
+    </body>
+</html>
