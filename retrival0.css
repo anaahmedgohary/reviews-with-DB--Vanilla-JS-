@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 0;
+  padding: 0;
+}
+
+.tbl-main-headrs {
+  border: solid;
+}
+
+.mTHeadr {
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.mtable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: solid 20px;
+  width: 100vw;
+  margin: auto;
+}
+.new-review th {
+  vertical-align: middle;
+  text-align: center;
+}
+.new-review td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.review-col {
+  font-size: 2vw;
+  text-align: center;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+
+.date-col-cel {
+  background-color: lightgray;
+}
+
+.rate-col-cel {
+  background-color: lightsalmon;
+}
+
+.rev-col-cel {
+  background-color: wheat;
+}
+
+.name-col-cel {
+  background-color: darkcyan;
+}
+
+.mtable-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+@media only screen and (min-width: 390px) {
+  body{
+    background-color: whitesmoke;
+  }
+  .row table tbody .responsive280 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: red;
+  }
+  .new-review {
+    background-color: red;
+    color: red;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=retrival.css.map */

@@ -50,6 +50,24 @@ body{
     background-color: darkcyan;
 }
 
+@media only screen and (min-width: 390px) {
+  body{
+    background-color: whitesmoke;
+  }
+  .row table tbody .responsive280 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: red;
+  }
+  .new-review {
+    background-color: red;
+    color: red;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=retrival.css.map */
+
 
 
 

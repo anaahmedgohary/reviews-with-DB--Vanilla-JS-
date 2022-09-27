@@ -30,27 +30,59 @@ body {
 }
 
 .main-nav {
-    display: flex;
+    @include flexCenter();
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: solid;
     margin-bottom: 10%;
+
+    p {
+            width: 12rem;
+            height: 6rem;
+            border: solid;
+            padding: 0%;
+            color: white;
+            background-image: linear-gradient(190deg, darkred, black, darkblue);
+            font-size: 1.4rem;
+            font-weight: bolder;
+            @include flexCenter();
+            flex-wrap: wrap;
+            border-radius: 8px;
+
+            a {
+                @include flexCenter();
+                width: 100%;
+                height: 100%;
+                text-decoration: none;
+                color: white;
+                border: solid white;
+            }
+        }
+
+    
 }
 
-.main-nav p {
-    border: solid;
-    padding: 01%;
-    color: white;
-    background-image: linear-gradient(190deg, darkred, black, darkblue);
-    font-size: 1.4rem;
-    font-weight: bolder;
-    @include flexCenter();
-    border-radius: 8px;
-}
+// .main-nav p {
+//     width: 10rem;
+//     height: 100%;
+//     border: solid;
+//     padding: 0%;
+//     color: white;
+//     background-image: linear-gradient(190deg, darkred, black, darkblue);
+//     font-size: 1.4rem;
+//     font-weight: bolder;
+//     @include flexCenter();
+//     flex-wrap: wrap;
+//     border-radius: 8px;
+// }
 
-.main-nav a {
-    text-decoration: none;
-    color: white;
-}
+// .main-nav a {
+//     width: 100%;
+//     height: 100%;
+//     text-decoration: none;
+//     color: white;
+//     border: solid white;
+// }
 
 
 
