@@ -3,9 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>add review page</title>
+        <title>local reviews of local bussiness add review online website</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link rel="stylesheet" href="./style/addreview.css" />
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -14,14 +16,14 @@
         
     </head>
     <body>
-        <header>
+        <header class="container">
             <div id="mainTitle">
                 <h1>
-                    Zag Reviews
+                    Online Reviews
                 </h1>
                 <div>
                     <h4>
-                        local reviews for local bussiness
+                        local reviews of local bussiness
                     </h4>
                 </div>
             </div>
@@ -34,59 +36,12 @@
                 </nav>
             </div>
         </header>
-        <!-- <div id="selectionNav">
-            <div class="selection-banel">
-                <label for="files">business to review:</label>
-                <select id="selectLocal" name="files" id="files">
-                    <optgroup id="resurants14" label="Resturans">
-                        <option id="1resturnat" value="">Select Here</option>
-                        
-                    </optgroup>
-                    <optgroup label="Cafes">
-                        <option value="somefile">baleno</option>
-                        <option value="someotherfile">Rio</option>
-                    </optgroup>
-                </select>
-            <script>
-                $( "#files" ).selectmenu();
-            </script>
-            </div>
-        </div>
-        <div id="selectionInfo">
-            <div>
-                <img id="selectImage" src="images/blackboard3.jpg" alt="selname">
-                
-            </div>
-            <div class="flex info-row">
-                <label for="selectionname">name:</label>
-                <p id="selectName">foodies</p>
-            </div>
-            <div class="flex info-row">
-                <label for="location">location:</label>
-                <p id="selectLocation">5 sdd, next to mansfr</p>
-            </div>
-            <div class="flex info-row">
-            <label for="phone number">phone number:</label>
-                <p id="selectPhone">055455433</p>
-            </div>
-            <div class="flex info-row">
-                <label for="services">services:</label>
-                <p id="selectSeervice">food</p>
-            </div>
-            <div class="flex info-row">
-                <label for="rating">Rating out of 5:</label>
-                <p id="selectRating">4.5</p>
-            </div>
-            <div class="flex info-row">
-                <label id="selectPeopleRated">number of ratings:</label>
-                <p id="rateCounter"></p>
-            </div>
-        </div> -->
+        
         <div id="reviewTitle">
             👇 Share your Review here 👇
         </div>
-        <div id="ratingBox">
-            <form id="formStyle" action="postzreveiw.php" method="post">
+        <div id="ratingBox" class="container">
+            <form id="formStyle" class="container" action="postzreveiw.php" method="post">
 
                 <div id="underRevDiv" class="form-row">
                     <label for="underRev">* Business name:
@@ -138,9 +93,9 @@
 
         </div>
 
-        <footer class="FOOTER">
+        <footer class="FOOTER container">
             <div class="footer-title">
-                Zag Reviews
+                Online Reviews
             </div>
             <div class="above-icon">Reach us on socials</div>
             <div class="fotr-icon-div">
@@ -154,7 +109,7 @@
                     <img class="footer-icon" src="images/tiktok-logo.png" title="tiktok"></a>
                 <a href="http://www.youtube.com" target="_blank">
                     <img class="footer-icon" src="images/youtube-logo.png" title="youtube"></a>
-                <a href="mailto:mrzagreviews@gmail.com" target="_blank">
+                <a href="mailto:mronlinereviews@gmail.com" target="_blank">
                     <img class="footer-icon" src="images/email-icon.png" title="email"></a>
                 <!-- <a href="" target="_blank"><img class="footer-icon" src="" alt=""></a> -->
             </div>
@@ -199,5 +154,8 @@
               
         </script> -->
         <script src="handleforms.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+            </script>
     </body>
 </html>

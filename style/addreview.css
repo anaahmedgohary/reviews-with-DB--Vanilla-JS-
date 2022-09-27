@@ -19,24 +19,27 @@ body {
 }
 
 #mainTitle h1 {
-  font-size: 7vw;
+  font-size: 0rem;
 }
 
 .main-nav {
   display: flex;
   justify-content: space-around;
   border-bottom: solid;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .main-nav p {
   border: solid;
   padding: 1%;
-  box-shadow: 2vw;
   color: white;
   background-image: linear-gradient(190deg, darkred, black, darkblue);
-  font-size: 1.5vw;
+  font-size: 1.4rem;
   font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
 }
 
 .main-nav a {
@@ -44,141 +47,116 @@ body {
   color: white;
 }
 
-#selectionNav {
-  margin-bottom: 8%;
-}
-
-.selection-banel label {
-  font-size: 2vw;
-}
-
-#selectionInfo {
-  /* justify-content: start;
-  text-align: left; */
-  margin-bottom: 9%;
-}
-
-#selectionInfo label {
-  margin-right: 5%;
-}
-
-#selectImage {
-  width: 5vw;
-}
-
-.flex {
-  display: flex;
-}
-
-.info-row {
-  border-bottom: dotted;
-}
-.info-row label {
-  font-size: 1.5vw;
-}
-.info-row p {
-  font-size: 1.5vw;
-}
-
 #reviewTitle {
-  margin-bottom: 4%;
-  font-size: 2vw;
-  border: solid;
+  width: 80%;
+  margin: auto;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 #formStyle {
-  display: block;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: auto;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: auto;
   margin-bottom: 10%;
-}
-
-#underRev {
-  height: 3.5vw;
-  font-size: 2vw;
-  text-align: center;
-  margin-top: 6%;
-}
-
-#ratingNum {
-  font-size: 2.5vw;
-  width: 8vw;
-  height: 4vw;
-  margin-top: 6%;
-}
-
-#reviewP {
-  height: 5vw;
-  font-size: 1.5vw;
-  text-align: center;
-  margin-top: 6%;
-}
-
-#raterName {
-  height: 3vw;
-  font-size: 1.5vw;
-  text-align: center;
-  margin-top: 6%;
-}
-
-#raterEmail {
-  height: 3vw;
-  font-size: 1.5vw;
-  text-align: center;
-  margin-top: 6%;
+  background-image: repeating-linear-gradient(-90deg, rgba(206, 99, 28, 0.842), orange, white);
 }
 
 .form-row {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
-  border: 20px solid;
-  border-radius: 40%;
-  background-color: darkolivegreen;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  min-width: 19rem;
+  width: 50%;
+  margin: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 .form-row label {
   display: block;
   margin: auto;
-  width: 50vw;
-  font-size: 2vw;
+  width: 100%;
+  max-width: 22rem;
+  font-size: 1.6rem;
   border: solid;
-  border-radius: 6%;
-  padding: 5%;
+  border-radius: 100px 100px;
+  padding: 2%;
+  overflow: hidden;
 }
 .form-row input {
   /* width: calc(100%/2 - 20px); */
   display: block;
   margin: auto;
   border: solid;
+  overflow: hidden;
+}
+
+#underRev {
+  height: 2.5rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0%;
+}
+
+#ratingNum {
+  font-size: 2.5rem;
+  width: 6rem;
+  height: 3rem;
+  margin-top: 0%;
+}
+
+#reviewP {
+  height: 3rem;
+  width: 90%;
+  overflow: hidden;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0%;
+}
+
+#raterName {
+  height: 2rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0%;
+}
+
+#raterEmail {
+  height: 2rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0%;
 }
 
 #formusbcon {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 #formusbcon input {
   padding: 2%;
-  font-size: 3vw;
+  font-size: 2rem;
   font-weight: bolder;
   background-color: olivedrab;
   color: bisque;
-  border: 1.2vw solid black;
-  border-radius: 50%;
-  width: 16vw;
-  height: 16vw;
+  border: 0.4rem solid black;
+  border-radius: 50px;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 30%;
   text-align: center;
 }
 
 #formusbcon input:hover {
   opacity: 0.9;
+  background-color: rgba(172, 230, 56, 0.89);
+  color: black;
   cursor: pointer;
 }
 
@@ -191,9 +169,6 @@ body {
   font-size: 1.5vw;
 }
 
-.FOOTER {
-  border-top: solid;
-}
 .FOOTER .footer-title {
   text-align: center;
   font-size: 5vw;
@@ -205,11 +180,13 @@ body {
 }
 .FOOTER .fotr-icon-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 .FOOTER .fotr-icon-div img {
-  height: 100px;
+  height: 4rem;
 }/*# sourceMappingURL=addreview.css.map */

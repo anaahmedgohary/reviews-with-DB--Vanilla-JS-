@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>New Reviews</title>
+    <title>New Reviews of local bussiness add review online website</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./retrival.css" />
     <link rel="stylesheet" href="./style/addreview.css" />
@@ -14,7 +14,7 @@
     <header>
         <div id="mainTitle">
             <h1>
-                Zag Reviews
+                Online Reviews
             </h1>
             <div>
                 <h4>
