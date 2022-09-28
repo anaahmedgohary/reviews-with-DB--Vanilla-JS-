@@ -63,36 +63,28 @@
                              <th scope="col">Time of Order</th> 
                         </tr>
                     </thead> -->
-                    <tbody>
+                    <tbody class="new-review">
                         <?php include 'retrieveDb.php'; ?>
 
                         <?php if ($result->num_rows > 0) : ?>
 
                         <?php while ($array = mysqli_fetch_row($result)) : ?>
                                 
-                        <tr class="new-review responsive280">
+                        
                             <tr class="rev-div">
-                                <th class="rev-div">review date</th>
-                                <td class="rev-div"><?php echo $array[1]; ?></td>
-                            </tr>
-                            <tr class="rev-div">
-                                <th class="col-2 mTHeadr" scope="col">Business Name</th>
-                                <td class="review-col rate-col-cel"><?php echo $array[2]; ?></td>
-                            </tr>
-                            <tr class="rev-div">
-                                <th class="col-1 mTHeadr" scope="col">Rating</th>
-                                <td class="review-col rev-col-cel"><?php echo $array[3]; ?></td>
-                            </tr>
-                            <tr class="rev-div">
-                                <th class="col-5 mTHeadr" scope="col">Review</th>
-                                <td class="review-col date-col-cel"><?php echo $array[4]; ?></td>
-                            </tr>
-                            <tr class="rev-div">
-                                <th class="col-2 mTHeadr" scope="col">The Reviewer</th>
-                                <th class="review-col name-col-cel"><?php echo $array[5]; ?></th>
+                                <td>Review Date</td>
+                                <th><?php echo $array[1]; ?></th>
+                                <td>Business Name</td>
+                                <th><?php echo $array[2]; ?></th>
+                                <td>Rating</td>
+                                <th><?php echo $array[3]; ?></th>
+                                <td>Review</td>
+                                <th><?php echo $array[4]; ?></th>
+                                <td>Reviewer</td>
+                                <th><?php echo $array[5]; ?></th>
                             </tr>
 
-                        </tr>
+                        
 
                         <?php endwhile; ?>
 

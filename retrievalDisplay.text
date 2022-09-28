@@ -1,0 +1,43 @@
+<tr class="rev-div">
+                                <th class="rev-div">review date</th>
+                                <td class="rev-div"><?php echo $array[1]; ?></td>
+                            </tr>
+                            <tr class="rev-div">
+                                <th class="col-2 mTHeadr" scope="col">Business Name</th>
+                                <td class="review-col rate-col-cel"><?php echo $array[2]; ?></td>
+                            </tr>
+                            <tr class="rev-div">
+                                <th class="col-1 mTHeadr" scope="col">Rating</th>
+                                <td class="review-col rev-col-cel"><?php echo $array[3]; ?></td>
+                            </tr>
+                            <tr class="rev-div">
+                                <th class="col-5 mTHeadr" scope="col">Review</th>
+                                <td class="review-col date-col-cel"><?php echo $array[4]; ?></td>
+                            </tr>
+                            <tr class="rev-div">
+                                <th class="col-2 mTHeadr" scope="col">The Reviewer</th>
+                                <th class="review-col name-col-cel"><?php echo $array[5]; ?></th>
+                            </tr>
+
+
+
+  <tr class="rev-div">
+                                <th >review date</th>
+                                <td ><?php echo $array[1]; ?></td>
+                            </tr>
+                            <tr class="rev-div">
+                                <th >Business Name</th>
+                                <td ><?php echo $array[2]; ?></td>
+                            </tr>
+                            <tr class="rev-div">
+                                <th >Rating</th>
+                                <td ><?php echo $array[3]; ?></td>
+                            </tr>
+                            <tr class="rev-div">
+                                <th >Review</th>
+                                <td ><?php echo $array[4]; ?></td>
+                            </tr>
+                            <tr class="rev-div">
+                                <th >The Reviewer</th>
+                                <th ><?php echo $array[5]; ?></th>
+                            </tr>                          
