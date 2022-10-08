@@ -29,7 +29,7 @@
 
         <div>
             <nav class="main-nav">
-                <p><a href="./addreview.html">Home</a></p>
+                <p><a href="./index.html">Home</a></p>
                 <p><a href="./retrievalDisplay.php">
                     New Reviews
                 </a></p>
