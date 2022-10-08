@@ -1,12 +1,4 @@
-## Review Web-app
-## HTML
-## CSS
-## SCSS
-## JavaScript
-## PHP
-## MySql
-## GIT
-## Github
+
 ## 
 ##
 ##
